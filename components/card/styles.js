@@ -22,6 +22,11 @@ export const PokedexItem = styled.div`
     background: #3D7DCA;
     color:  #FFCB05;
 
+    @media (max-width: 1280px){
+        width: 47.5%;
+        height: 22vh;
+    }
+
     :hover {
       transform: scale(1.02);
       border-color: #3D7DCA;

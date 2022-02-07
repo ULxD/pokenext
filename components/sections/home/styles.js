@@ -20,6 +20,10 @@ export const Medias = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
+    @media (max-width: 1440px){
+        font-size: 2rem
+    }
 `
 
 export const MediaItem = styled.div`
@@ -67,5 +71,5 @@ export const Search = styled.div`
     font-size: 2.5rem;
     text-transform: uppercase;
     cursor: pointer;
-    
+
 `

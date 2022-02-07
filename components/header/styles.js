@@ -12,6 +12,10 @@ export const Nav = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    @media (max-width: 1280px){
+        justify-content: center;
+    }
+
 `
 
 export const NavMenu = styled.div`
@@ -29,6 +33,7 @@ export const MenuItem = styled.div`
     transition: transform 0.5s, border-color 0.5s;
     border-bottom: 2px solid rgba(0,0,0,0);
     line-height: 20px;
+    margin: 0 1vw;
     
 
     &:hover {
@@ -42,6 +47,7 @@ export const MenuItem = styled.div`
 export const Logo = styled.div`
     height: 8vh;
     width: 14vw;
+    margin-right: 10vw;
 
     cursor: pointer;
 

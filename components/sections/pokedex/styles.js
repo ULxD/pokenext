@@ -26,7 +26,7 @@ export const TitleDex = styled.div`
 `
 
 export const PokedexList = styled.div`
-    height: 92.6%;
+    height: 67vh;
     width: 100%;
 
     border-bottom-left-radius: 1.5vh;
@@ -38,6 +38,14 @@ export const PokedexList = styled.div`
 
     overflow: scroll;
     overflow-x: hidden;
+
+    @media (max-width: 1440px){
+        height: 66vh;
+    }
+
+    @media (max-width: 1280px){
+        height: 63.9vh;
+    }
 
     &::-webkit-scrollbar {
         width: 0px;
