@@ -13,7 +13,7 @@ export const Nav = styled.div`
     justify-content: space-between;
 
     @media (max-width: 1280px){
-        justify-content: center;
+        justify-content: space-around;
     }
 
 `

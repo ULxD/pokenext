@@ -21,6 +21,10 @@ export const PokemonBox = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 1024px){
+        width: 85%;
+    }
 `
 
 
@@ -39,22 +43,26 @@ export const RightBox = styled.div`
     width: 50%;
     height: 100%;
 
-    padding-left: 5vw;
+    padding-left: 3vw;
 
-    font-size: 2rem;
+    font-size: 1.5rem;
 
-    
+
     
 ` 
 
 export const PokeName = styled.div`
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     margin-top: 5vh;
 
     
 
     text-align: center;
+
+    @media (max-width: 1280px){
+        font-size: 1.5rem;
+    }
 `
 
 export const PokeStats = styled.div`
@@ -70,12 +78,24 @@ export const PokeStats = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    @media (max-width: 1280px){
+        height: 25vh;
+        width: 19vw;
+    }
+
+    @media (max-width: 1024px){
+        height: 40%;
+        width: 85%;
+    }
+    
 `
 
 export const PokeD = styled.div`
+    text-align: center;
 
     border-bottom: 2px dotted #ccc;
-    width: 15vw;
+    width: 100%;
     padding: 0.2vh;
 
 `

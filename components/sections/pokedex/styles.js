@@ -16,6 +16,10 @@ export const ContainerDex = styled.div`
     padding: 2vh 0 0 0;
 
     text-align: center;
+
+    @media (max-width: 1024px){
+        width: 80%;
+    }
     
 `
 

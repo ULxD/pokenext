@@ -22,8 +22,16 @@ export const Medias = styled.div`
     justify-content: center;
 
     @media (max-width: 1440px){
+        width: 4vw;
         font-size: 2rem
     }
+
+    @media (max-width: 1024px){
+        width: 10vw;
+ 
+    }
+
+
 `
 
 export const MediaItem = styled.div`
@@ -58,6 +66,17 @@ export const SearchBox = styled.div`
 
     cursor: pointer;
     transition: color 0.5s, background-color 0.5s;
+
+    @media (max-width: 1024px){
+        width: 25vw;
+        left: 20vw;  
+    }
+
+    @media (max-width: 950px){
+        width: 45vw;
+        top: 65%;
+        left: 35vw;  
+    }
 
     &:hover{
 

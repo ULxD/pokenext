@@ -14,6 +14,14 @@ export const AboutContainer = styled.div`
     top: 20%;
 
     text-align: center;
+
+    @media (max-width: 1024px){
+        left: 30%;
+        background: #ffffff;
+        width: 60vw;
+        border-radius: 2vh;
+        border: 2px solid #003A70;
+    }
 `
 
 export const TitleAbout = styled.div`
