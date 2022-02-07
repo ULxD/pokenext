@@ -1,20 +1,11 @@
-import { MainS, Medias, MediaItem, Options, About, Pokedex, SearchBox, Search } from './styles';
-import { AiFillLinkedin, AiOutlineGithub, AiOutlineInstagram, AiFillTwitterSquare} from "react-icons/ai";
+import { MainS } from './styles';
 
-export default function Main(){
+export default function Main({children}){
 
     return(
 
         <MainS>
-            <Medias>
-                <MediaItem><AiFillLinkedin/></MediaItem>
-                <MediaItem><AiOutlineGithub/></MediaItem>
-                <MediaItem><AiOutlineInstagram/></MediaItem>
-                <MediaItem><AiFillTwitterSquare/></MediaItem>
-            </Medias>
-            <SearchBox>
-                <Search>Pesquisar</Search>
-            </SearchBox>
+           {children}
         </MainS>
 
     )

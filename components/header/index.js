@@ -1,4 +1,5 @@
 import { Nav, Logo, NavMenu, MenuItem} from './styles'
+import Link from 'next/link'
 
 
 
@@ -8,9 +9,9 @@ export default function Header(){
         <Nav>
             <Logo/>
             <NavMenu>
-                <MenuItem>Home</MenuItem>
-                <MenuItem>Pokedex</MenuItem>
-                <MenuItem>Favoritos</MenuItem>
+                <MenuItem><Link href="/">Home</Link></MenuItem>
+                <MenuItem><Link href='/about'>Sobre</Link></MenuItem>
+                <MenuItem><Link href='/pokedex'>Pokedex</Link></MenuItem>
             </NavMenu>
         </Nav>
     )
