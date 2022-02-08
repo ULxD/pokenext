@@ -1,3 +1,12 @@
+## PokeNext<br>
+
+Meu primeiro projeto utilizando NextJS, nele pude aprender sobre paginas dinâmicas, rotas no NextJS, getStaticProps, getStaticPaths, referências a pasta public, SSR e etc.
+
+
+Caso você queira pré visualizar basta acessar o link [PokeNext](222)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
