@@ -8,11 +8,40 @@ export default function SectionHome(){
         <>
             <HomeC>
                 <Medias>
-                    <MediaItem href=''><AiFillLinkedin/></MediaItem>
-                    <MediaItem><AiOutlineGithub/></MediaItem>
-                    <MediaItem><AiOutlineInstagram/></MediaItem>
-                    <MediaItem><AiFillTwitterSquare/></MediaItem>
+                    <MediaItem >
+                        <Link href='https://www.linkedin.com/in/whelisson-dias/' passHref>
+                            <a target="_blank" rel="noreferrer">
+                                <AiFillLinkedin/>
+                            </a>
+                        </Link>
+                    </MediaItem>
+
+                    <MediaItem>
+                        <Link href='https://github.com/ULxD' passHref>
+                            <a target="_blank" rel="noreferrer">
+                                <AiOutlineGithub/>
+                            </a>
+                        </Link>
+                    </MediaItem>
+
+                    <MediaItem>
+                        <Link href="https://www.instagram.com/whelixd/" passHref>
+                            <a target="_blank" rel="noreferrer">
+                                <AiOutlineInstagram/>
+                            </a>
+                        </Link>
+                    </MediaItem>
+
+                    <MediaItem>
+                        <Link href="https://twitter.com/Whelixd" passHref>
+                            <a target="_blank" rel="noreferrer">
+                                <AiFillTwitterSquare/>
+                            </a>
+                        </Link>
+                    </MediaItem>
+
                 </Medias>
+
                 <SearchBox>
                     <Search><Link href='/pokedex'>Pesquisar</Link></Search>
                 </SearchBox>
