@@ -47,6 +47,10 @@ export const RightBox = styled.div`
 
     font-size: 1.5rem;
 
+    @media (max-width: 450px){
+        font-size: 1rem;
+    }
+
 
     
 ` 
@@ -62,6 +66,14 @@ export const PokeName = styled.div`
 
     @media (max-width: 1280px){
         font-size: 1.5rem;
+    }
+
+    @media (max-width: 1024px){
+        font-size: 1.2rem;
+    }
+
+    @media (max-width: 450px){
+        font-size: 1rem;
     }
 `
 
@@ -88,6 +100,7 @@ export const PokeStats = styled.div`
         height: 40%;
         width: 85%;
     }
+    
     
 `
 

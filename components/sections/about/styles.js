@@ -22,6 +22,11 @@ export const AboutContainer = styled.div`
         border-radius: 2vh;
         border: 2px solid #003A70;
     }
+
+    @media (max-width: 450px){
+        width: 90%;
+        left: 5%;
+    }
 `
 
 export const TitleAbout = styled.div`
@@ -31,5 +36,9 @@ export const TitleAbout = styled.div`
 export const DescriptionAbout = styled.div`
     width: 50%;
     margin-top: 2vh;
+
+    @media (max-width: 450px){
+        width: 80%;;
+    }
 
 `

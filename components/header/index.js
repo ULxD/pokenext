@@ -7,7 +7,7 @@ export default function Header(){
 
     return(
         <Nav>
-            <Logo/>
+            <Link href='/'><Logo/></Link>
             <NavMenu>
                 <MenuItem><Link href="/">Home</Link></MenuItem>
                 <MenuItem><Link href='/about'>Sobre</Link></MenuItem>

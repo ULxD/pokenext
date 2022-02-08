@@ -3,7 +3,7 @@ import Main from '../../components/main';
 import Footer from '../../components/footer';
 import { PokemonBox, LeftBox, RightBox, PokeName, PokeStats, PokeD } from './styles';
 import Image from 'next/image';
-
+import Head from 'next/head';
 
 
 export const getStaticPaths = async () => {
@@ -47,6 +47,10 @@ export default function Pokemon({ pokemon }){
     console.log(pokemon)
     return (
         <>
+        <Head>
+            <link rel="shortcut icon" href="/imgs/pokeball.jpg"/>
+            <title>PokeNextJS - {pokemon.name}</title>
+        </Head>
         <Header/>
         <Main>
             <PokemonBox>

@@ -1,5 +1,19 @@
 import styled from 'styled-components';
 
+export const HomeC = styled.div`
+
+    @media (max-width: 1024px){
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        height: 100vh;
+
+    }
+`
+
 
 export const Medias = styled.div`
     height: 23vh;
@@ -27,8 +41,21 @@ export const Medias = styled.div`
     }
 
     @media (max-width: 1024px){
+        position: static;
+        margin: 2vh 0;
+    }
+
+    @media (max-width: 800px){
         width: 10vw;
- 
+    }
+
+    @media (max-width: 650px){
+        width: 13vw;
+    }
+
+    @media (max-width: 450px){
+        width: 18vw;
+        height: 28vh;
     }
 
 
@@ -68,14 +95,22 @@ export const SearchBox = styled.div`
     transition: color 0.5s, background-color 0.5s;
 
     @media (max-width: 1024px){
-        width: 25vw;
-        left: 20vw;  
+        position: static;
+        margin: 20vh;
+        
+        width: 26vw;
     }
 
-    @media (max-width: 950px){
-        width: 45vw;
-        top: 65%;
-        left: 35vw;  
+    @media (max-width: 800px){
+        width: 32vw;
+    }
+
+    @media (max-width: 650px){
+        width: 50vw;
+    }
+
+    @media (max-width: 450px){
+        width: 70vw;
     }
 
     &:hover{

@@ -16,6 +16,10 @@ export const Nav = styled.div`
         justify-content: space-around;
     }
 
+    @media (max-width: 450px){
+        justify-content: center;
+    }
+
 `
 
 export const NavMenu = styled.div`
@@ -55,5 +59,10 @@ export const Logo = styled.div`
     background-position:center;
     background-size: contain;
     background-repeat: no-repeat;
+
+
+    @media (max-width: 450px){
+        margin-right: 30vw;
+    }
 
 `

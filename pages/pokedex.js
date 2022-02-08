@@ -3,6 +3,7 @@ import Main from '../components/main';
 import Footer from '../components/footer';
 import SectionPokedex from '../components/sections/pokedex';
 import Card from '../components/card';
+import Head from 'next/head';
 
 export async function getStaticProps(){
 
@@ -31,6 +32,10 @@ export default function Pokedex({ pokemons }){
     console.log( pokemons )
     return(
         <>
+        <Head>
+            <link rel="shortcut icon" href="/imgs/pokeball.jpg"/>
+            <title>Pokedex - PokeNextJS</title>
+        </Head>
         <Header/>
         <Main>  
             <SectionPokedex>
