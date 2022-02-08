@@ -1,7 +1,7 @@
 import Header from '../../components/header';
 import Main from '../../components/main';
 import Footer from '../../components/footer';
-import { PokemonBox, LeftBox, RightBox, PokeName, PokeStats, PokeD } from './styles';
+import { PokemonBox, LeftBox, RightBox, PokeName, PokeStats, PokeD } from '../../components/sections/pokemon/styles';
 import Image from 'next/image';
 import Head from 'next/head';
 
